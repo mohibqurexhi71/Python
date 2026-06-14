@@ -67,9 +67,43 @@
 
 # symetric Diffrence:
 
-c = {3,9,6,1}
-d = {25,9,0,3}
+# c = {3,9,6,1}
+# d = {25,9,0,3}
 
-symdiff = c.symmetric_difference(d)
-print(symdiff)
+# symdiff = c.symmetric_difference(d)
+# print(symdiff)
+ 
+# set1 = {1,2,3,4,6,7}
+# print(set1.issuperset({1,7}))
+# print({1,2}.issubset(set1))
 
+
+# -----------Practise Set---------------
+
+# Dword = {
+#     "madad" : "help",
+#     "kursi" : "chair",
+#     "billi" : "cat"
+# }
+
+# word = input("Enter the word you want to meaning of: ").lower()
+# print(Dword[word])
+s = set()
+num = input("Enter Number 1: ")
+s.add(int(num))
+num = input("Enter Number 2: ")
+s.add(int(num))
+num = input("Enter Number 3: ")
+s.add(int(num))
+num = input("Enter Number 4: ")
+s.add(int(num))
+num = input("Enter Number 5: ")
+s.add(int(num))
+num = input("Enter Number 6: ")
+s.add(int(num))
+num = input("Enter Number 7: ")
+s.add(int(num))
+num = input("Enter Number 8: ")
+s.add(int(num))
+
+print(s)
